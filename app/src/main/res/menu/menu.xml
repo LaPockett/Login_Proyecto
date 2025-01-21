@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="Inicio"
+        android:id="@+id/inicio"
+        android:icon="@drawable/baseline_home_24"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:title="Calendario"
+        android:id="@+id/calendario"
+        android:icon="@drawable/baseline_calendar_month_24"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:title="Mascota"
+        android:id="@+id/mascota"
+        android:icon="@drawable/baseline_pets_24"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:title="Social"
+        android:id="@+id/social"
+        android:icon="@drawable/baseline_supervisor_account_24"
+        app:showAsAction="ifRoom"
+        />
+</menu>
