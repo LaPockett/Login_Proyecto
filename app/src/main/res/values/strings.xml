@@ -2,4 +2,5 @@
     <string name="app_name">Login_Proyecto</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="default_web_client_id">85467762629-jr6icr9f96h4t5illshtqapl57sq0tb0.apps.googleusercontent.com</string>
 </resources>

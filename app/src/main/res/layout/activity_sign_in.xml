@@ -65,7 +65,7 @@
 
 
     <Button
-        android:id="@+id/buttonSignUp"
+        android:id="@+id/buttonLogin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
@@ -73,5 +73,27 @@
         android:onClick="onLogin"
         android:text="LOGIN"
         tools:ignore="OnClick" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="---------- OR ----------"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/buttonLoginWithGoogle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="#ACB1B8"
+        android:onClick="onSigInWithGoogle"
+        android:drawableLeft="@drawable/logo_google"
+        android:text="Login with Google"
+        android:textColor="#000000"
+        android:drawablePadding="8dp"
+        android:layoutDirection="ltr"
+        />
 
 </LinearLayout>
